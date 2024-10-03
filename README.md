@@ -87,6 +87,8 @@ docker-compose up -d
 2. It retrieves the public IP address.
 3. It updates the A records on Cloudflare with the new public IP if there are any changes.
 
+**Note**: The A record for each domain must already exist in Cloudflare.
+
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
